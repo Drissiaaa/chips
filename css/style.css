@@ -1,0 +1,43 @@
+body{
+    background-image: url(../img/fond.png);
+    margin: 0;
+    line-height: 1.8em;
+    font-family: "Slabo 27px", arial, sans serif;
+    font-size: 1em;
+    color: #424953;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-width: 800px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+h1, h2, h3{
+    font-family: "Slabo 27px";
+    margin: 0 auto;
+    font-weight: normal;
+}
+.cta{
+    background-color: #1b9ca2;
+    color: white;
+    font-family: "Slabo 27px";
+    font-size: 1.1em;
+    padding: 5px 15px;
+    float: right;
+    margin-top: 15px;
+}
+.cta i{
+   margin-left: 10px
+}
+/*---header---*/
+
+header{
+  background-color: #25b3b3;
+  border-top: 5px solid #1b9ca2;
+  border-bottom: 5px solid #1b9ca2;
+  margin-top: 100px;
+  text-align: center;
+
+}

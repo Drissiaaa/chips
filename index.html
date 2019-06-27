@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/normalize.css" />
 	<!-- On charge toujours notre CSS en dernier-->
 	<link rel="stylesheet" href="css/style.css" />
-	<title>Module 4 - Fish & Chips</title>
+	<title>Chips</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
 	<header>
 		<img src="img/logo.png" alt="fish & chips">
-		<nav>
+		<nav class="container">
 			<a href="#">Location</a>
 			<a href="#">About Us</a>
 			<a href="#">Contact</a>
@@ -25,8 +25,8 @@
 	</header>
 
 	<!---MAIN CONTENT-->
-	<main class="container">
-		<section class="presentation">
+	<div class="container">
+		<section id="presentation">
 			<h1>Welcome to Fish & Chips</h1>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus, aperiam nostrum autem
 				dolores adipisci molestiae fugiat provident, in, atque mollitia quo? Eos pariatur eaque incidunt
@@ -42,7 +42,7 @@
 				optio mollitia deleniti et!</p>
 		</section>
 
-		<section class="recipe">
+		<main id="recipe">
 			<h1><span>Today's</span>Special</h1>
 			<article>
 				<h3><i class="fa fa-tint"></i>Le crusty<i class="fa fa-tint"></i></h3>
@@ -56,7 +56,7 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corrupti commodi voluptas itaque
 					quam saepe velit sapiente, et quo rem recusandae ipsum facere culpa? Harum possimus ducimus
 					blanditiis molestias nostrum!</p>
-				<a href="#">Read me <i class="fa fa-plus-circle"></i></a>
+				<a class="cta" href="#">Read me <i class="fa fa-plus-circle"></i></a>
 			</article>
 
 			<article>
@@ -71,10 +71,10 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corrupti commodi voluptas itaque
 					quam saepe velit sapiente, et quo rem recusandae ipsum facere culpa? Harum possimus ducimus
 					blanditiis molestias nostrum!</p>
-				<a href="#">Read me <i class="fa fa-plus-circle"></i></a>
+				<a class="cta" href="#">Read me <i class="fa fa-plus-circle"></i></a>
 			</article>
-		</section>
-
+			</section>
+		</main>
 		<aside>
 			<img class="vignette" src="img/vignette.png" alt="vignette">
 			<h3><span>News & events</span></h3>
@@ -106,7 +106,8 @@
 			</article>
 
 		</aside>
-	</main>
+	</div>
+
 </body>
 
 </html>
